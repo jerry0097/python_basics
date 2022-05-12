@@ -1,0 +1,12 @@
+num = int(input("Enter your number: "))
+sum1 = 0
+temp = num
+while (num>0):
+    digit = num%10
+    sum1 = sum1 + digit**3
+    num = num//10
+
+if (temp == sum1):
+    print ("Number is an Armstrong number")
+else:
+    print("Number is not an Armstrong number")
