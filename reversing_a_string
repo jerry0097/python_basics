@@ -1,0 +1,3 @@
+a =("Hello")
+reverse_a = a.reverse()
+print(reverse_a)
