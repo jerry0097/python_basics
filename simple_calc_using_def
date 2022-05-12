@@ -1,0 +1,41 @@
+print('Select function')
+print('1. Add ')
+print('2. Subtract')
+print('3. Multiply')
+print('4. Divide')
+condition = int(input('Select choice: '))
+
+def add(x,y):
+    temp = x+y
+    return temp
+
+def subtract(x,y):
+    temp = x-y
+    return temp
+
+def multiply(x,y):
+    temp = x*y
+    return temp
+
+def divide(x,y):
+    temp = x/y
+    return temp
+
+if condition==1:
+    x = int(input("Enter variable x: "))
+    y = int(input("Enter variable y: "))
+    print("Answer: ",add(x, y))
+elif condition==2:
+    x = int(input("Enter variable x: "))
+    y = int(input("Enter variable y: "))
+    print("Answer: ",subtract(x, y))
+elif condition==3:
+    x = int(input("Enter variable x: "))
+    y = int(input("Enter variable y: "))
+    print("Answer: ",multiply(x, y))
+elif condition==4:
+    x = int(input("Enter variable x: "))
+    y = int(input("Enter variable y: "))
+    print("Answer: ",divide(x, y))
+else:
+    print("Invalid Input")
