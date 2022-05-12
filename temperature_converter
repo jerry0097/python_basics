@@ -1,0 +1,15 @@
+print('Select conversion')
+print('1. C TO F ')
+print('2. F TO C')
+
+condition = int(input('Select choice'))
+
+if condition ==1 :
+    Celcius = float(input("Enter temperature in c: "))
+    farenheit_1 = (9/5)*Celcius+32
+    print(farenheit_1)
+
+else:
+    Farenheit = float(input("Enter temperature in Farenheit: "))
+    celcius_1 = (Farenheit - 32)*5/9
+    print(celcius_12)
