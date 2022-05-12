@@ -1,0 +1,12 @@
+username= "jerry"
+password= "jerry123"
+
+prompt= input("Enter your username: ")
+if prompt == username:
+    prompt = input("Enter your password: ")
+    if prompt == password:
+        print("Access Granted")
+    else:
+        print("Access Denied")
+else:
+    print("Invalid User")
