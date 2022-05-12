@@ -1,0 +1,10 @@
+n=int(input("Enter the desired number of rows: "))
+
+def pascals(limit):
+    print("**Pascals Triangle**")
+    for row in range (0,limit):
+        for coloumn in range (0, row+1):
+            print("*", end=" ")
+        print(" ")
+
+print(pascals(n))
