@@ -1,0 +1,13 @@
+a = int(input("Enter variable a: "))
+b = int(input("Enter variable b: "))
+c = int(input("Enter variable c: "))
+
+def maximum(a,b,c):
+    if (a>b) and (a>c):
+        return a
+    elif (b>c) and (b>a):
+        return b
+    else:
+        return c
+
+print("Maximum number: ",maximum(a,b,c))
