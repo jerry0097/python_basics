@@ -1,0 +1,27 @@
+print('Select currency')
+print('1.  Dollar to INR ')
+print('2.  INR to Dollar')
+print('3.  Euro to INR ')
+print('4.  INR to Euro')
+
+condition = int(input('Select choice: '))
+
+if condition ==1 :
+    Dollar = int(input("Enter amount in Dollars: "))
+    inr_1 = (Dollar**75)
+    print(inr_1)
+elif condition ==2 :
+    INR = int(input("Enter amount in INR: "))
+    dollar_1 = (INR/75)
+    print(dollar_1)
+elif condition ==3 :
+    Euro = int(input("Enter amount in Euro: "))
+    inr_2 = (Euro**100)
+    print(inr_2)
+elif condition ==4:
+    INR_3 = int(input("Enter amount in INR: "))
+    euro_1 = (INR_3/100)
+    print(euro_1)
+
+else:
+    print("Please select a valid option!")
