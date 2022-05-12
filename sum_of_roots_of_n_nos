@@ -1,6 +1,0 @@
-n=10
-sum1=0
-for i in range (0,n):
-    sum1= sum1+(i**0.5)
-    print(sum1)
-print("The final sum is", sum1)
