@@ -1,0 +1,29 @@
+class Calculator:
+    def add(self,a,b):
+        return a+b
+    def sub(self,a,b):
+        return a-b
+    def mul(self,a,b):
+        return a*b
+    def quo(self,a,b):
+        return a/b
+
+my_cal = Calculator()
+
+print("1. Add")
+print("2. Subtract")
+print("3. Multiply")
+print("4. Divide")
+
+inpt = int(input("Select operator: "))
+a= int(input("Enter first variable: "))
+b= int(input("Enter second variable: "))
+
+if inpt==1:
+    print(my_cal.add(a, b))
+elif inpt==2:
+    print(my_cal.sub(a, b))
+elif inpt==3:
+        print(my_cal.mul(a, b))
+else:
+    print(my_cal.quo(a,b))
